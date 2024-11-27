@@ -35,13 +35,15 @@ src/in/ac/adit/pwj/miniproject/bank ├── Account.java // Abstract class for
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/BankManagementSystem.git
+   git clone https://github.com/jeelsonani/BankManagementSystem.git
    cd BankManagementSystem
 2. Compile the Java files:
   javac -d . src/in/ac/adit/pwj/miniproject/bank/*.java
 3. Run the application:
    java in.ac.adit.pwj.miniproject.bank.BankManagement
-   
+
+---
+
 ## How to Use
 1. Upon running, you can choose from the following options:
   -Create New Account: Create a new Savings or Current account.
@@ -58,7 +60,7 @@ src/in/ac/adit/pwj/miniproject/bank ├── Account.java // Abstract class for
 
 ## File Storage
   -accounts.txt: Stores account details in the format:
-    <AccountNumber>,<Name>,<AccountType>,<Balance>
+    AccountNumber,Name,AccountType,Balance
   -transaction_history.txt: Stores transaction logs for all accounts.
 
 ---
